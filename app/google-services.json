@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394384310399",
+    "firebase_url": "https://procampo-91b9c.firebaseio.com",
+    "project_id": "procampo-91b9c",
+    "storage_bucket": "procampo-91b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394384310399:android:28fff420f438cd29",
+        "android_client_info": {
+          "package_name": "com.dlcsistemas.cursoandroid.procampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394384310399-4feu8o0et1maa57th4qa4787lic6v2pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dlcsistemas.cursoandroid.procampo",
+            "certificate_hash": "6f3a4a794c3dbf36762904f471246a702796c546"
+          }
+        },
+        {
+          "client_id": "394384310399-kj2mtv5qhhot0htlb4arlts6j3fm1ur1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXBWflSGXrqPAeiFunps5BQzdkkqWdruA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394384310399-kj2mtv5qhhot0htlb4arlts6j3fm1ur1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

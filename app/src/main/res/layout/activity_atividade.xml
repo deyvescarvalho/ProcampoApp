@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AtividadeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="Talhões"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerTalhao"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp" />
+
+                <EditText
+                    android:id="@+id/editAreaDisponivel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Área Disponível"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editAreaUtilizada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Área Utilizada"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="Produtos"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="Atividades"
+                    android:textSize="25sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerAtividades"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginBottom="20dp" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Unidade"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Quantidade"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Valor unitário"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Valor total"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/content_atividade"
+        android:layout_width="230dp" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_salvar"
+            android:layout_gravity="end|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_salvar_branco_24dp"
+            fab:fab_label="Salvar"
+            fab:fab_size="mini" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
