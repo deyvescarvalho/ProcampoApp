@@ -11,7 +11,7 @@ public class ConfiguracaoFirebase {
     //Retorna a instancia do DatabaseReference
     public static DatabaseReference getFirebase(){
         if (firebase == null){
-            firebase = FirebaseDatabase.getInstance().getReference().getParent();
+            firebase = FirebaseDatabase.getInstance().getReference();
         }
         return firebase;
     }
